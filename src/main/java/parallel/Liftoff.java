@@ -6,7 +6,8 @@ public class Liftoff implements Runnable{
     private int countDown=10;
 
     void printStatus(){
-        System.out.print("#"+id+" "+countDown+"!");
+        System.out.println(Thread.currentThread()+"#"+id+" "+countDown+"!");
+
     }
 
     @Override
